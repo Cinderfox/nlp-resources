@@ -28,7 +28,7 @@ This repository contains a series of Natural Language Processing (NLP) assignmen
     cd nlp-resources
     ```
 
-3. **Explore the labs**: Each lab is contained in its own folder with relevant code and documentation.
+3. **Explore the labs**: Each lab is contained in its own folder with relevant code.
 
 ## Requirements
 
