@@ -20,7 +20,7 @@ This repository contains a series of Natural Language Processing (NLP) assignmen
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/nlp-resources.git
+    git clone https://github.com/Cinderfox/nlp-resources.git
     ```
 
 2. **Navigate to the directory**:
