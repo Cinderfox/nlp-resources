@@ -14,7 +14,7 @@ This repository contains a series of Natural Language Processing (NLP) assignmen
 - **8 - Chart Parser**: Implementing a chart parser for context-free grammars.
 - **9 - Lesk Algorithm on WSD**: Applying the Lesk algorithm for word sense disambiguation.
 - **10 - Name Entity Recognition**: Identifying and classifying named entities in text.
-- **11 - Text Summarisation**: Techniques for summarizing text content.
+- **11 - Text Summarization**: Techniques for summarizing text content.
 
 ## Getting Started
 
