@@ -37,7 +37,3 @@ You may need specific Python packages to run the code. Check individual lab fold
 ## License
 
 This repository is provided as-is for educational purposes.
-
----
-
-For any questions, please open an issue on GitHub or contact [your-email@example.com](mailto:your-email@example.com).
