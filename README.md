@@ -1,6 +1,6 @@
 # NLP Resources
 
-This repository contains a series of Natural Language Processing (NLP) assignments. Each lab focuses on a different aspect of NLP, from basic analysis to more advanced techniques.
+This repository contains a series of Natural Language Processing (NLP) codes. Each code focuses on a different aspect of NLP, from basic analysis to more advanced techniques. Each code includes some comments to help understand its functionality and purpose.
 
 ## Contents
 
