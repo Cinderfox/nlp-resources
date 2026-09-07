@@ -1,0 +1,72 @@
+Fig. 3. Reinforcement Learning
+Intellilight have found out that Deep RL overcomes the
+constraints in RL while offering better results in hindsight.
+SURTRAC(Scalable Urban Traffic Control) is one of the
+recent developments into solving the problem of traffic bottle-
+neck developed by Stephen F. Smith, et al. [9]. It uses various
+video detectors to detect vehicle and their movements which
+are used to manage the traffic lights accordingly. Their system
+has improved traffic flow efficiency drastically at the tests
+conducted in their pilot site. But in a country like India where
+lane discipline is not mandatory, this system may not be as
+effective.
+Fig. 4. The placement of detectors in a typical installation(SURTRAC)
+Fig. 5. New proposed system
+IV. CONCLUSION
+From the existing technologies that were surveyed, cameras
+seem to be the most efficient and best method in order to
+capture the traffic conditions. IR and thermal sensors are not as
+effective as cameras and may lead to inconsistent results. The
+tests which were performed in [3] with thermal cameras
+operated in static lab environment and minimal dynamic
+objects in simulated environment which cannot showcase the
+actual traffic conditions. Embedded systems provide vital on
+node computing at cheap costs and can also be used as a
+medium to communicate with traffic signals.
+VANET and RFID based system require the vehicles to send
+information. Without a vehicle capable of doing so, or any
+minor inconvenience dwindling their ability to do so, the
+results might not be as accurate. Reinforcement learning is a
+widely suggested solution for traffic control, but the constraints
+that come along with it does not make it the best candidate to
+solve the problem. However, deep reinforcement learning
+could help overcome those issues.
+SURTRAC converts the traffic problem into a single
+machine scheduling problem. It definitely has shown promising
+results at the test site. Since it services on the vehicle to vehicle
+basis, it may alter cyclic scheduling of traffic lights. Thereby,
+this may be problematic in a country like India.The following
+results are taken from [9] :
+Percent Improvement Average Vehicles Travel Time Speed Number of Stops Wait Time Emissions
+AM rush 5228 30.11% 33.78% 29.14% 47.78% 23.83%
+Mid day 8007 32.83% 48.55% 52.58% 49.82% 29.00%
+PM rush 9548 22.65% 27.45% 8.89% 35.60% 18.41%
+Evening 7157 17.52% 27.81% 34.97% 27.56% 14.01%
+Overall 29940 25.79% 34.02% 31.34% 40.64% 21.48%
+ACKNOWLEDGMENT
+The undertaking and progress of this project required a lot
+III. PROPOSED METHODOLOGY
+Hereby, the following system is being proposed wherein the
+traffic conditions will be monitored through cameras. The
+cameras will be input to the next module which will carry out
+the object detection. This output will then be forwarded to the
+learning algorithm and on the basis of the analyzing carried out
+by the algorithm, the system will propose new time
+slots/schedules that need to be implemented by the traffic
+system. This system will not alter the sequential switching flow
+from one signal to another that is already in existence.
+The system will monitor the traffic flows that pass through
+the road intersection and will work in a decentralized manner.
+of guidance and assistance from many people and we are
+extremely privileged to have got this all along the completion
+of this project report. All that we have done is only due to such
+supervision and assistance and we would not forget to thank
+them.
+We respect and thank Prof. J.B.Kulkarni , for providing us
+an opportunity and giving us all support and guidance which
+made us complete the project report duly. We are extremely
+thankful to her for providing such nice support and guidance.
+We owe our deep gratitude to Prof.M.P.Wankhade, HOD
+Department of Computer Engineering, who took keen interest
+in our project work, for providing all facilities and help for
+smooth progress of the project.

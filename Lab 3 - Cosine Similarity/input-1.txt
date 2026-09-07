@@ -1,0 +1,87 @@
+parking, data loss due to power failure and availability of
+funds.
+Jasmine Rani L. et al. [1] have proposed the use of
+IR(Infrared) sensors in order to collect vehicle data. The flaws
+appear when multiple vehicles arrive in the scene. This would
+require many IR sensors to compute the traffic density
+and with that, the data obtained may not be as reliable.
+Also the categorization of vehicle on the basis of IR sensor
+data is very difficult to accomplish. This makes the use of IR
+sensors unfeasible. As specified in the papers, the traffic
+lights are dependent on the signals received from IR
+sensors, if the IR sensors are occupied by a single vehicle
+or multiple vehicles in a less congested traffic lane, their
+system might give more importance to a less congested area
+causing more congestion. Moving forward to use of RFID
+(Radio Frequency Identi- fication) for the traffic control
+problem, Al-Khateeb et. al. [2] have developed a system
+which senses the situation through RFID devices. Major
+requirement of that system is to have RFID tags which
+will transmit data. The process of having every vehicle
+tagged is long lasting and difficult to accomplish since
+vehicles which were manufactured before 2017(in India)
+didn’t mandatorily consist of RFID tags.
+Thermal cameras could aid in sensing vehicle inflow during
+conditions with low visibility. This advantage comes with a
+hefty cost. P. Jagannadha Rao et. al. [3] have suggested the idea
+to use them as detectors. Despite the advantages, when we
+consider the working of thermal cameras during times when
+visibility is okay, normal cameras will outperform them while
+also being relatively cheaper than them. From the plethora of
+data sources available, it will be easier to collect and harness
+images about non-thermal cameras than thermal cameras in
+order to build a model from them.
+While the devices mentioned above do offer partial solutions
+for traffic control, it is also important as to where the sensors
+and devices would be placed and mounted. Undeniably, em-
+bedded systems provide cost efficient solutions to computation
+at nodes while also being structurally small and providing most
+of the functionalities that a modern computer can provide
+whilst also accommodating the said equipment. Sk Riyaz
+Hussain, et al [4] in their paper have considered the idea of
+monitoring traffic density through Raspberry Pi. They have
+measured the density of traffic by differentiation between
+white and black pixels. This method would not prove useful
+when a large vehicle like a truck or a bus or a number of them
+takes up the most of the camera footage.
+Although the weakness, one takeaway is that an embedded
+system can prove as a useful device going forward because of
+the functionalities offered at limited cost.
+Maram Bani Younes and Azzedine Boukerche [5] have
+offered insights into using VANETs(Vehicular Ad-hoc Net-
+works) technology to develop an intelligent traffic light con-
+trolling algorithms by placing wireless transceiver and GPS
+tools on vehicles. Each vehicle over the road periodically
+broadcasts the basic traveling data (i.e., location, speed, direc-
+tion, destination, etc). Vehicles receive the basic traffic data of
+surrounding vehicles. This will just increase cost of the system
+because vehicles will require to be equipped with the above
+mentioned devices as well as the computations that will be
+performed may take a lot of time in congested areas because of
+mass amount of availability of vehicles. Also the reports
+Fig. 1. Raspberry Pi board
+that the agent will receive may be incoherent depending on
+different reporting vehicle. Also the system is dependent on
+vehicles to pass the information and may not work when and if
+the devices stop functioning.
+Looking at speed of the vehicles in order to judge traffic is
+an interesting perspective put forward by Li Jinyang et. al.
+[6]. This can be implemented by V2I(Vehicle to Infras-
+tructure) where road vehicles interact with the road infrastruc-
+ture/system. The main issue still stands in the vehicles tailored
+with the devices to do so. Also while vehicle speed though may
+prove out to show the real time traffic conditions, if certain
+vehicle drivers are used to driving slowly, the performance of
+the proposed model may be hindered.
+Fig. 2. Modular Architecture
+With the growing popularity of RL(Reinforcment Learning)
+in recent history, it brings about a new dynamic whenever the
+question of an adaptive/ learning system comes in the
+discussion. RL uses Q-Learning to do so which constructs a
+key-value pair between states and actions which will lead to the
+optimal calculated reward. Similar approach can be used for
+traffic as has been experimented by El-Tantawy et. al. [7]. The
+problem within this lies in the fact that it is not possible to
+store so many states because of memory constraints and the
+vast amount of variables that need to be accounted.
+Wei Hua et al. [8] in their proposed system known as
